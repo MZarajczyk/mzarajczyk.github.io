@@ -5,14 +5,50 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
-body{
-    background-color: #fdfdfd;
-}
 #container{
     margin: 0 15%;
-    height: 1500px;
     background-color: white;
+    min-height: 100%;
+    position:relative;
+    bottom: 1vh;
+    padding-top:1vh
 }
+footer{
+    background-color: #2c2c2c;
+    color:white;
+    width: 100%;
+    clear:both;
+    padding: 0.75vh 0;
+    text-align: center;
+    font-weight: 300;
+}
+#logo{
+    height: 130px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 15px;
+    }
+    
+    .fb{
+    height: 50px;
+    float: right;
+    margin-right: 3px;
+    margin-top: 15px;
+    margin-left: 55px;
+    }
+    
+    .ig{
+    height: 50px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 8px;
+    }
+    
+    header{
+    text-align: center;
+    margin-bottom: 1vh;
+    }
 h1{
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -31,39 +67,7 @@ h2{
     color:#02001e;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-
     }
-
-
-    
-    #logo{
-    height: 120px;
-    float: left;
-    margin-left: 25px;
-    margin-top: 25px;
-    }
-    
-    .fb{
-    height: 50px;
-    float: right;
-    margin-right: 5px;
-    margin-top: 25px;
-    margin-left: 35px;
-    }
-    
-    .ig{
-    height: 50px;
-    float: right;
-    margin-top: 25px;
-    margin-left: 5px;
-    margin-right: 25px;
-    }
-    
-    header{
-    text-align: center;
-    margin-bottom: 15px;
-    }
-    
     .tujestes{
         border: 2px solid #009933;
         border-radius: 10px;
@@ -75,7 +79,6 @@ h2{
     font-weight: 900;
     font-style: normal;
     color: white;
-    font-size 100px;
     }
     
     .nav a:visited{
@@ -108,20 +111,24 @@ h2{
     font-size: 17px;
     word-spacing: 0px;
     }
-    
     .nav{
-    word-spacing: 100px;
-    padding: 30px 30px;
-    border-radius: 15px;
-    background-color: #2c2c2c;
+        word-spacing: 100px;
+        padding: 30px;
+        border-radius: 15px;
+        background-color: #2c2c2c;
+        }
+    #r{
+        padding-left:0.2vw;
+        font-size:15px;
     }
 
     #pogoda{
-        padding: 20px;
+        padding: 15px;
     }
     #lbn{
         font-size: 23px;
         font-weight: 700;
+        margin-bottom: -25px;
     }
     #loc{
         height: 30px;
@@ -130,26 +137,22 @@ h2{
     #stopnie{
         font-size: 60px;
         font-weight: 300;
+        position: relative;
 
     }
     #chmura{
         height: 85px;
-        float:right;
-        margin-right: 70px;
+        margin-left: 5px;
+        position: absolute;
     }
     .pinfo{
         font-size: 17px;
     }
-    #drukarka3d{
-    text-align: center;
-    margin-top: 10px;
-    padding: 5px;
-    }
     #drukarka3d img{
-        height:650px;
+        width: 100%;
         border-radius: 10px;
-        margin-top:-10px;
         margin-bottom: 8px;
+        margin-top: -3px;
         }
     #article1 p{
         padding: 5px;
@@ -157,12 +160,12 @@ h2{
 
     #col-left{
     float: left;
-    width: 79%;
+    width: 78.5%;
     }
     
     #col-right{
     float: right;
-    width: 20%;    
+    width: 21%;    
     }
     
     .nagl{
@@ -175,21 +178,13 @@ h2{
         padding-top: 5px;
         padding-bottom: 5px;
         }
-    #r{
-        padding-left:5px;
-        font-size:18px;
-    }
+
     .koszyk{
-        padding: 10px 20px;
+        padding: 10px 15px;
         font-size: 18px;
     }
     
-    footer{
-        background-color: #2c2c2c;
-        text-align: center;
-        color:white;
-        padding: 10px 0;
-    }
+ 
 
     .nagl p{
         padding-left: 15px;
@@ -209,7 +204,7 @@ h2{
         
         section {
             padding: 20px;
-            margin: 20px 0;
+            margin: 15px 0;
             border: 1px solid #ccc;
             border-radius: 10px;
         }.container {
@@ -218,24 +213,24 @@ h2{
           
         img {
             float: left;
+            border-radius: 8px;
         }
-          
-          
-        a:link{
+        
+        section a:link{
             
             text-decoration: none;
             color: black;
             
         }  
-        a:hover{
+        section a:hover{
             text-decoration: underline;
             text-decoration-color: #009933;
         }
-        a:hover:visited{
+        section a:hover:visited{
             text-decoration: underline;
             text-decoration-color: #009933;
         }
-        a:visited{
+        section a:visited{
             text-decoration: none;
             color: black;
         }
@@ -279,12 +274,12 @@ h2{
     font-family: "Poppins", cursive;
     font-weight: 400;
     font-style: bold;
-    text-align: center;
     font-size: 60px;
     padding-bottom: 5px;
     color:black;
     text-align: left;
     border-bottom:1px solid rgb(223, 222, 222);
+
 }
 .article img{
     float: right;
@@ -294,4 +289,24 @@ h2{
 }
 .article p{
     margin-top:15px;
+}
+@media screen and (max-width: 1550px) {
+    .nav a {
+      float: none;
+      display: block;
+      margin-bottom:0.5vh;
+    }
+    .nav{
+        padding: 15px;
+        }
+    #r{
+        padding-left:0;
+        display: block;
+        margin-top: -8px;        
+    }
+    #chmura{
+        position: relative;
+        float:inherit;
+        top:2.8vh;
+    }
 }
