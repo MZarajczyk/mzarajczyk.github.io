@@ -8,7 +8,7 @@
 #container{
     margin: 0 15%;
     background-color: white;
-    min-height: 100%;
+    min-height: 100vh;
     position:relative;
     bottom: 1vh;
     padding-top:1vh
